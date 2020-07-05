@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e3649a-fb78-475d-a143-a692ae6eef77" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dataReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dataReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +81,30 @@
       <workItem from="1593775539530" duration="2619000" />
       <workItem from="1593778180760" duration="5997000" />
       <workItem from="1593854757946" duration="253000" />
-      <workItem from="1593933126157" duration="1668000" />
+      <workItem from="1593933126157" duration="2366000" />
     </task>
+    <task id="LOCAL-00001" summary="master | in progress">
+      <created>1593934839181</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593934839181</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="master | in progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="master | in progress" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1593934838433">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593934838433" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1593934395225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -109,5 +125,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="292" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593934817748" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593934841930">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593934841930" />
   </component>
 </project>

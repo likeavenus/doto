@@ -4,10 +4,9 @@ import { fetchData } from "../redux/actions";
 
 export const Header = () => {
     const dispatch = useDispatch();
-    dispatch(fetchData());
+    dispatch(fetchData())
     const comments = useSelector(state => state.data.comments);
-    console.log(comments);
     return (
-        comments.length ? comments.map(comment => <div>{comment}</div>) : <div>Комментариев пока нет</div>
+        comments.length ? comments.map(comment => <div key={comment.key}>{comment.key}</div>) : <div>Комментариев пока нет</div>
     )
 };
