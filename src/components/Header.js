@@ -7,6 +7,10 @@ export const Header = () => {
     dispatch(fetchData())
     const comments = useSelector(state => state.data.comments);
     return (
-        comments.length ? comments.map(comment => <div key={comment.key}>{comment.key}</div>) : <div>Комментариев пока нет</div>
+        comments.length ?
+            comments.map(comment =>
+                <div key={comment.key}>{comment.key}</div>)
+                :
+                <div>Комментариев пока нет</div>
     )
 };
