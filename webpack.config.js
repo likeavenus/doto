@@ -53,10 +53,14 @@ module.exports = {
                 from: path.resolve(__dirname, 'src/assets/favicon.ico'),
                 to: path.resolve(__dirname, 'dist')
             },
+            {
+                from: path.resolve(__dirname, 'src/assets/img/'),
+                to: path.resolve(__dirname, 'dist/img')
+            }
         ]),
         new MiniCssExtractPlugin({
             filename: 'bundle.css'
-        }),
+        })
     ],
     module: {
         rules: [
@@ -68,7 +72,7 @@ module.exports = {
                     options: {
                         presets: [
                             '@babel/preset-env',
-                            "@babel/preset-react",
+                            '@babel/preset-react'
                         ]
                     }
                 }
@@ -85,7 +89,12 @@ module.exports = {
             },
             {
                 test: /\.(png|jpg|jpeg|gif|svg|webp)$/,
-                use: ['file-loader']
+                use: [
+                    {
+                        loader: 'file-loader',
+                    }
+                ],
+
             },
             {
                 test: /\.(ttf|woff|woff2|eot|)$/,
