@@ -52,7 +52,7 @@ module.exports = {
             {
                 from: path.resolve(__dirname, 'src/assets/favicon.ico'),
                 to: path.resolve(__dirname, 'dist')
-            }
+            },
         ]),
         new MiniCssExtractPlugin({
             filename: 'bundle.css'

@@ -3,9 +3,20 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
 }
 h1 {
     font-size: 27px;
     color: rebeccapurple;
     font-family: 'Roboto', sans-serif;
+}
+
+.card-icon {
+    width: 45px;
+}
+
+.select {
+    font-size: 29px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }

@@ -1,10 +1,15 @@
-import { GET_DATA } from "./types";
+import { GET_HEROES, SELECT_TYPE } from "./types";
 
 export function fetchData() {
     return async dispatch => {
-        const response = await fetch('https://api.opendota.com/api/matches/271145478');
+        const response = await fetch('https://api.opendota.com/api/heroes');
         const data = await response.json();
-        // console.log(data.chat);
-        dispatch({ type: GET_DATA, payload: data.chat })
+        dispatch({ type: GET_HEROES, payload: data })
+    }
+}
+
+export function changeValue(payload) {
+    return dispatch => {
+        dispatch({ type: SELECT_TYPE, payload})
     }
 }
