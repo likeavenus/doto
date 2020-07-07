@@ -23,7 +23,10 @@ export const Filter = () => {
                 <option value="str">Strength</option>
             </select>
 
-            <Heroes heroes={selectedHeroes}/>
+
+            <div className="heroes">
+                <Heroes heroes={selectedHeroes}/>
+            </div>
         </div>
     )
 };

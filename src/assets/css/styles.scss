@@ -20,3 +20,13 @@ h1 {
     margin-bottom: 20px;
     cursor: pointer;
 }
+
+.heroes {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.card {
+    margin-bottom: 20px;
+}

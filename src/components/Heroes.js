@@ -16,7 +16,7 @@ export const Heroes = ({ heroes }) => {
                 {
                     heroes.map(hero => {
                         return (
-                            <div key={hero.id} className="card">
+                            <div key={hero.id} className="card" style={{width: 18 + 'rem'}}>
                                 <div className="card-body">
                                     <img src={icons[hero.primary_attr]} className="card-icon" alt="attribute" />
                                     <h5 className="card-title">{hero.localized_name}</h5>
