@@ -1,12 +1,10 @@
 import { GET_HEROES, SELECT_TYPE } from "./types";
 
-export function fetchData() {
-    return async dispatch => {
-        const response = await fetch('https://api.opendota.com/api/heroes');
-        const data = await response.json();
-        dispatch({ type: GET_HEROES, payload: data })
-    }
-}
+export const fetchData = () => async dispatch => {
+    const response = await fetch('https://api.opendota.com/api/heroes');
+    const data = await response.json();
+    dispatch({ type: GET_HEROES, payload: data })
+};
 
 export function changeValue(payload) {
     return dispatch => {
